@@ -20,8 +20,8 @@ function group() {
 
 function getReady() {
  document.getElementById('list').innerHTML = "Congratulations "
- + kids[Math.floor(Math.random()* kids.length)] +
-  "! You have the opporutnity to get ready for bed first.";
+ + kids[Math.floor(Math.random()* kids.length)] + "!" +
+   " You have the opporutnity to get ready for bed first.";
 };
 
 function generateQuote() {
