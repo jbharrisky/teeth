@@ -19,13 +19,12 @@ function group() {
 
 
 function getReady() {
- document.getElementById('list').innerHTML = "Congratulations, " 
+ document.getElementById('list').innerHTML = "Congratulations "
  + kids[Math.floor(Math.random()* kids.length)] +
-  " you have the opporutnity to get ready first!";
+  "! You have the opporutnity to get ready for bed first.";
 };
 
 function generateQuote() {
     document.getElementById('quote').innerHTML =
      quotes[Math.floor(Math.random() * quotes.length)];
 };
-
