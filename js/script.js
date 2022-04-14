@@ -17,7 +17,7 @@ const quotes = [
 ];
 
 function group() {
-    getReady(kids);
+    getReady();
     generateQuote();
 };
 
