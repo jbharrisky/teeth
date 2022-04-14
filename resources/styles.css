@@ -12,7 +12,7 @@ body {
 }
 
 
-.list {
+.first, .second, .third {
     font-size: 30px;
 }
 
